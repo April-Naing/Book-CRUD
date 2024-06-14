@@ -1,0 +1,32 @@
+
+.box{
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+
+}
+
+p{
+    margin: 10px 0;
+}
+
+.btn {
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-between;
+}
+
+.deleteBtn , .backBtn {
+    border: none;
+    background-color: white;
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.backBtn:hover{
+    color: black;
+}
+
+.deleteBtn:hover{
+    color : red
+}

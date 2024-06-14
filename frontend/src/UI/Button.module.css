@@ -1,0 +1,17 @@
+.btn {
+    margin-left: 50px;
+}
+
+.createBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .createBtn:hover {
+    background-color: #212428;
+  }

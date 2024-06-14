@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Portal update",
+        "author": "Vine update",
+        "status": "not-available",
+        "checkout_date": "2024-06-05"
+    },
+    {
+        "title": "Error",
+        "author": "Error",
+        "status": "not-available",
+        "checkout_date": "2024-06-10"
+    },
+    {
+        "title": "Pro",
+        "author": "Hsu Chi Ko",
+        "status": "not-available",
+        "checkout_date": "2024-06-24"
+    },
+    {
+        "title": "Nyi",
+        "author": "Hsu Chi Ko",
+        "status": "available",
+        "checkout_date": "2024-06-10"
+    },
+    {
+        "title": "Call Me By Your Name",
+        "author": "Script",
+        "status": "available",
+        "checkout_date": "2024-06-09T10:00:00Z"
+    }
+]

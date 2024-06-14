@@ -1,0 +1,19 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 1rem;
+  }
+  
+  /* General box styling */
+  .cardBox {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 50%;
+    /* max-width: 600px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

@@ -1,0 +1,95 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Head section styling */
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    margin-left: 50px;
+  }
+  
+  .createBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .createBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form styling */
+  .form {
+    text-align: left;
+  }
+  
+  .formGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    flex: 0 0 120px; /* Adjust this value based on desired label width */
+    font-size: 16px;
+  }
+  
+  .centeredInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .centeredInput:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 600px) {
+    .head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btn {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .formGroup {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .formGroup label {
+      margin-bottom: 5px;
+    }
+  
+    .centeredInput {
+      width: 100%;
+    }
+  }
+  

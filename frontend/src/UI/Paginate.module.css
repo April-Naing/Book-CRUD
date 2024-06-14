@@ -1,0 +1,15 @@
+.pgBox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+button {
+  border-radius: 50px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.text{
+  margin-top: 7px;
+}
