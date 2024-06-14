@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const fs = require("fs");
 const { getStoredBooks, storeBooks } = require("./data/books");
@@ -11,7 +12,7 @@ dotenv.config();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(cors());
 app.use((req, res, next) => {
   // Attach CORS headers
   // Required when using a detached backend (that runs on a different domain)
@@ -39,7 +40,7 @@ mongoose
 
 app.use("/books", booksRoute);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log(`Listening at ${port}`);
